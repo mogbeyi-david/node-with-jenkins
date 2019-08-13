@@ -11,7 +11,7 @@ describe("GET /", function () {
         done();
     });
 
-    it("respond with hello world", async (done) => {
+    it("should return a 200 status", async (done) => {
         //navigate to root and check the the response is "hello world"
         const result = await request(app).get("/");
         expect(result.body.status).toBe(200);

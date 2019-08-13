@@ -4,7 +4,7 @@
   "description": "Experimenting CI/CD with jenkins",
   "main": "index.js",
   "scripts": {
-    "test": "jest --runInBand --coverage --verbose --detectOpenHandles"
+    "test": "jest --runInBand --coverage --verbose"
   },
   "repository": {
     "type": "git",
