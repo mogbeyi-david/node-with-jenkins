@@ -17,7 +17,7 @@ app.get("/", function (req, res) {
 
 app.get("/about", function (req, res) {
     res.send({
-        message: "This is the about page after adding build steps",
+        message: "This is the about page after adding build steps editted",
         status: 200
     });
 });
