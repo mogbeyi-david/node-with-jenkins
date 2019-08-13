@@ -15,4 +15,11 @@ app.get("/", function (req, res) {
     });
 });
 
+app.get("/about", function (req, res) {
+    res.send({
+        message: "This is the about page",
+        status: 200
+    });
+});
+
 module.exports = app;

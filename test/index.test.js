@@ -13,7 +13,7 @@ describe("GET /", function () {
 
     it("should return a 200 status", async (done) => {
         //navigate to root and check the the response is "hello world"
-        const result = await request(app).get("/");
+        const result = await request(app).get("/about");
         expect(result.body.status).toBe(200);
         done();
     });
