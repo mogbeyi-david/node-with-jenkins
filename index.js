@@ -9,7 +9,8 @@ app.get("/", function (req, res) {
         status: 200,
         data: {
             name: "David Mogbeyi",
-            age: 20
+            age: 20,
+            gender: "male"
         }
     });
 });
