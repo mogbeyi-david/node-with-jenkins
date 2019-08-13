@@ -1,0 +1,8 @@
+#!/bin/sh
+ssh david@159.65.255.175 <<EOF
+ cd ~/node-with-jenkins
+ git pull origin master
+ npm install
+ pm2 restart all
+ exit
+EOF

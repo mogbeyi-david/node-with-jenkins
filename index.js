@@ -6,7 +6,10 @@ const app = express();
 app.get("/", function (req, res) {
     res.send({
         message: "hello world",
-        status: 200
+        status: 200,
+        data: {
+            name: "David Mogbeyi"
+        }
     });
 });
 
