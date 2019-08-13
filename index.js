@@ -8,7 +8,8 @@ app.get("/", function (req, res) {
         message: "hello world",
         status: 200,
         data: {
-            name: "David Mogbeyi"
+            name: "David Mogbeyi",
+            age: 20
         }
     });
 });
